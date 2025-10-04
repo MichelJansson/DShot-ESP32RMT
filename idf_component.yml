@@ -1,0 +1,19 @@
+version: 0.1.0
+description: DShotRMT Library supporting all DShot Types and speeds. Tested with BlHeli_32.
+license: BSD-3
+targets:
+  - esp32
+  - esp32c3
+  - esp32p4
+  - esp32s2
+  - esp32s3
+url: https://github.com/MichelJansson/DShot-ESP32RMT
+repository: https://github.com/MichelJansson/DShot-ESP32RMT
+issues: https://github.com/MichelJansson/DShot-ESP32RMT/issues
+tags:
+  - dshot
+  - rmt
+files:
+   use_gitignore: true
+maintainers:
+  - Michel Jansson

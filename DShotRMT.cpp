@@ -72,7 +72,7 @@ DShotRMT::DShotRMT(gpio_num_t gpio, dshot_mode_t dshot_mode)
             .clk_src = RMT_CLK_SRC_DEFAULT,
             .resolution_hz = DSHOT_RMT_RESOLUTION_HZ,
             .mem_block_symbols = MAX_BLOCKS,
-            .flags{
+            .flags = {
                 .with_dma = true,
                 .io_loop_back = true,
             },
